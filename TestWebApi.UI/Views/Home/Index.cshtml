@@ -25,5 +25,14 @@
             });
         }());
     </script>
+    <script>
+        (function () {
+            $.ajax({
+                type: 'get',
+                contentType: 'json',
+                url: 'http://localhost:14002/api/product'
+            });
+        }());
+    </script>
 </body>
 </html>
